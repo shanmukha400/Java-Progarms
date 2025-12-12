@@ -1,0 +1,20 @@
+import java.util.*;
+class Read
+{
+  public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter ur name");
+    String n = sc.nextLine();
+    System.out.println("Enter age");
+    int age = sc.nextInt();
+    System.out.println("Enter salary in float");
+    float salary = sc.nextFloat();
+    System.out.println("Enter salary in double");
+    double s = sc.nextDouble(); 
+    System.out.println("name is " +n);
+    System.out.println("age is "+age);
+    System.out.println("float salary value is " +salary);
+    System.out.println("double salary value " +s);  
+   }
+}
